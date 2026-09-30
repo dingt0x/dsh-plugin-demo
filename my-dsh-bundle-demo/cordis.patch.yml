@@ -1,0 +1,8 @@
+- insert:
+    - id: custom-plugin-greet
+      name: my-dsh-plugin-greet
+      config:
+        target: DeepSeek Harness 开发者
+
+    - id: custom-plugin-timer
+      name: my-dsh-plugin-timer

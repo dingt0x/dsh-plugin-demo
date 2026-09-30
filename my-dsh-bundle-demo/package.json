@@ -1,0 +1,19 @@
+{
+  "name": "my-dsh-bundle-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "dependencies": {
+    "my-dsh-plugin-greet": "^1.0.0",
+    "my-dsh-plugin-timer": "^1.0.0"
+  }
+}
