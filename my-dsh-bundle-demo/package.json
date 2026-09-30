@@ -1,6 +1,6 @@
 {
   "name": "my-dsh-bundle-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "index.js",
   "exports": {
@@ -13,7 +13,7 @@
     }
   },
   "dependencies": {
-    "my-dsh-plugin-greet": "^1.0.0",
-    "my-dsh-plugin-timer": "^1.0.0"
+    "my-dsh-plugin-greet": "^1.0.1",
+    "my-dsh-plugin-timer": "^1.0.1"
   }
 }
